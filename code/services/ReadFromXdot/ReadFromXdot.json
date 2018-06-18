@@ -1,0 +1,18 @@
+{
+    "auto_restart": false,
+    "concurrency": 0,
+    "current_version": 5,
+    "dependencies": "log,clearblade",
+    "execution_timeout": 0,
+    "logging_enabled": "false",
+    "name": "ReadFromXdot",
+    "params": [
+        "{}"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "ReadFromXdot.js"
+}
