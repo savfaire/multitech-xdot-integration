@@ -1,0 +1,8 @@
+{
+    "description": "",
+    "frequency": 120,
+    "name": "ReadFromXdotTimer",
+    "repeats": -1,
+    "service_name": "ReadFromXdot",
+    "start_time": "2018-06-18T18:50:34Z"
+}
