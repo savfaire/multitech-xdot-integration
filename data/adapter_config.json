@@ -1,0 +1,36 @@
+{
+    "app_id": "e4b2bfb20b86dcd4b2e0fcb3bfb601",
+    "collection_id": "fab3bfb20bc0a296c1d2e8b1dae601",
+    "items": [
+        {
+            "adapter_name": "xDotSerialPortAdapter",
+            "adapter_settings": "{\"networkAddress\":\"00:11:22:33\",\"networkDataKey\":\"33:22:11:00:33:22:11:00:33:22:11:00:33:22:11:00\",\"networkSessionKey\":\"00:11:22:33:00:11:22:33:00:11:22:33:00:11:22:33\",\"serialPortName\":\"/dev/ttyAP1\",\"transmissionDataRate\":\"DR8\",\"transmissionFrequency\":\"915500000\"}",
+            "item_id": "eccb008d-a717-4884-9125-97eb2eedb6ea",
+            "topic_root": "xdot/lora"
+        }
+    ],
+    "name": "adapter_config",
+    "permissions": {},
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "adapter_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "topic_root",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "adapter_settings",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
