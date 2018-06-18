@@ -1,0 +1,10 @@
+{
+    "auth": true,
+    "deployments": [],
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "multitech-xdot-integration",
+    "platform_url": "https://staging.clearblade.com",
+    "system_key": "e4b2bfb20b86dcd4b2e0fcb3bfb601",
+    "system_secret": "E4B2BFB20BC4EDD3EF8A9895E3F801"
+}
