@@ -1,0 +1,30 @@
+{
+    "asset_types": [
+        "Adapters",
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Roles",
+        "Timers"
+    ],
+    "author": {
+        "email": "jbouquet@clearblade.com"
+    },
+    "clouds": [],
+    "description": "",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://www.multitech.com/documents/media/images/products/multiconnect/xdot/mt_multiconnect_xdot_micro_developer_kit_mtmdk-nx-xdot_clear_hp1000px.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform"
+    ],
+    "license": "MIT",
+    "name": "multitech-xdot-integration",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
