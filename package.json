@@ -11,7 +11,7 @@
         "email": "jbouquet@clearblade.com"
     },
     "clouds": [],
-    "description": "",
+    "description": "Integrate with Multitech xDot devices to receive and transmit LoRa packets",
     "domains": [],
     "gateways": [],
     "image_url": "https://www.multitech.com/documents/media/images/products/multiconnect/xdot/mt_multiconnect_xdot_micro_developer_kit_mtmdk-nx-xdot_clear_hp1000px.png",
