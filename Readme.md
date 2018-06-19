@@ -11,12 +11,31 @@ The xDotAdapter included in this package configures the xDot device to operatate
 ## Setup
 ### With ClearBlade Edge
 1. Log into your ClearBlade Platform instance and define a ClearBlade Edge for each xDot participating in your network
-2. Install and start ClearBlade Edge on the xDot device. 
-3. After a minute or two, the xDotAdapter will
-4. Configure your constants in the _TwilioConstants_ library.
-5. Test using the example service _TwilioExampleSendSMS_.
+2. Create a **_deployment_** within the clearblade platform and specify **_sync_** for all of the assets in this package
+3. Modify the contents of the xDotAdapter.etc.default file so that the values for *ACTIVE_KEY*, *SYSTEM_KEY*, *SYSTEM_SECRET*, *PLATFORM_URL*, and *MESSAGING_URL* match the values for your _System_ and _Edge_ startup parameters.
+  * ACTIVE_KEY - Currently set to 01234567890 in the xDotSerialAdapter row within the _Devices_ collection
+  * SYSTEM_KEY - Set this to the system key of your system
+  * SYSTEM_SECRET - Set this to the system secret of your system
+  * PLATFORM_URL - Defaults to __http://localhost:9000__
+  * MESSAGING_URL - Defaults to __localhost:1883__
+4. Install and start ClearBlade Edge on the xDot device.
+5. After a minute or two, the xDotAdapter will have been installed on your ClearBlade edge and will be ready for testing.
+6. Log onto the ClearBlade Edge and click the **_Messaging_** interface to view incoming and transmit outgoing xDot LoRa packets.
 
 ### Without ClearBlade Edge
+1. Log into the ClearBlade Platform and create a row in the __Devices__ collection for each xDot device you have
+2. Copy the __xDotAdapter__ files to each of your xDot devices
+2. Modify the contents of the xDotAdapter.etc.default file on each device so that the values for *DEVICENAME*, *ACTIVE_KEY*, *SYSTEM_KEY*, *SYSTEM_SECRET*, *PLATFORM_URL*, and *MESSAGING_URL* match the values for your _System_ parameters.
+  * DEVICENAME - This should match the value in the __name__ column of the devices collection for the xDot device created in step 1.
+  * ACTIVE_KEY - Currently set to 01234567890 in the xDotSerialAdapter row within the _Devices_ collection
+  * SYSTEM_KEY - Set this to the system key of your system
+  * SYSTEM_SECRET - Set this to the system secret of your system
+  * PLATFORM_URL - Defaults to __http://localhost:9000__
+  * MESSAGING_URL - Defaults to __localhost:1883__
+3. Execute the __deploy.sh__ script
+4. Log onto the ClearBlade Edge and click the **_Messaging_** interface to view incoming and transmit outgoing xDot LoRa packets.
+
+
 
 ## Usage
 
