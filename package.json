@@ -18,7 +18,12 @@
     "keywords": [
         "clearblade",
         "iot",
-        "platform"
+        "platform",
+        "Multitech",
+        "xDot",
+        "lora", 
+        "lorawan", 
+        "lwm2m"
     ],
     "license": "MIT",
     "name": "multitech-xdot-integration",
